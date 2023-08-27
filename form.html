@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Registration form</title>
+	
+<body>
+	<h2>Registration Form</h2>
+	<div class="container">
+		<lable for="name">NAME</lable>
+		<input type="text" name="name"required>
+		<lable for="email">E-MAIL</lable>
+		<input type="email"name="email"required>
+		<lable for="password">PASSWORD</lable>
+		<input type="password"name="password"required>
+		<lable for="phone number">PHONE NUMBER</lable>
+		<input type="tel"name="phone number"required>
+		<lable for="gender">GENDER</lable>
+		<select id="GENDER">
+			<option value="male"name="male">MALE</option>
+			<option value="female"name="female">FEMALE</option>
+			<option value="other"name="other">OTHER</option>
+		</select>
+		<lable for="zipcode">ZIPCODE</lable>
+		<input type="text"name="zipcode"required>
+		<lable for="about">ABOUT</lable>
+		<input type="textarea"name="textarea"required>
+		<div class="btn">
+			<input type="submit"value="REGISTER">
+		</div>
+		<style>
+			lable{
+				display:block;
+				padding:10px;
+			}
+			body{
+				text-align: center;
+				background-color:lightpink;
+			}
+			form{
+				background-color:yellowgreen ;
+				margin-left: 200px;
+				marginright: 200px;
+				border-radius: 10px;
+			}
+			.btn{
+				padding: 10px;
+			}
+			input[type=submit]{
+				background-color: skyblue;
+			}
+			input[type=submit]:hover{
+				background-color: palegreen;
+				cursor:pointer;
+			}
+		</style>
+</body>
+</html>
